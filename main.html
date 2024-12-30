@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noelia Pacheco - Copywriter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav');
+      nav.classList.toggle('active');
+    }
+  </script>
+  
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <div class="brand">
+        <span class="subtitle">Copywriter</span>
+        <h1 class="title">Noelia Pacheco</h1>
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav class="nav">
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#portafolio" class="nav-link">Portafolio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre Mi</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <button class="cta-button">Curso Diseño Web</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="highlight">TUS CLIENTES BUSCAN UNA MARCA DIFERENTE.</p>
+          <p class="highlight">DEMUÉSTRALES EL VALOR DE LO QUE HACES.</p>
+          <h2 class="hero-title">
+            Impulsa tu negocio digital gracias al copywriting y al marketing de contenidos.
+          </h2>
+          <button class="hero-button">Descubre cómo conseguirlo</button>
+        </div>
+        <div class="hero-image">
+          <img src="./public/removed_img.png" alt="Person celebrating success" />
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
